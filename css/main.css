@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* ------------------- */
+/* html, body          */
+/* ------------------- */
+html, body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background: #000;
+	
+
+}
+
+/* ------------------- */
+/* container           */
+/* ------------------- */
+div.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------- */
+/* header              */
+/* ------------------- */
+div.header{
+    height: 150px;
+    background: #666;
+}
+
+/* ------------------- */
+/* content             */
+/* ------------------- */
+div.content{
+    background: #fff;
+    color: #000;
+    padding:20px 40px;
+    text-align: justify;
+}
+
+div.items div.item{
+	width:230px;
+	height:230px;
+	float:left;
+	box-shadow:2px 2px 5px 0 #000;
+}
+
+div.items div.item:not(:last-child){
+	margin-right:15px;
+	
+}
+
+div.items div.item h3{
+	text-align:center;
+}
+
+div.items:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+
+/* ------------------- */
+/* footer              */
+/* ------------------- */
+div.footer{
+    height:80px;
+    line-height:80px;    
+    background: #333;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
