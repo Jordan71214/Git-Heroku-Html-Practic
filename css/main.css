@@ -59,6 +59,11 @@ div.items:after{
 	clear:both;
 }
 
+.note{
+    
+    padding: 20px 40px;
+}
+
 /* ------------------- */
 /* footer              */
 /* ------------------- */
@@ -66,7 +71,7 @@ div.footer{
     height:80px;
     line-height:80px;    
     background: #333;
-    color: #fff;
+    
     text-align: center;
     letter-spacing: 2px;
 }
